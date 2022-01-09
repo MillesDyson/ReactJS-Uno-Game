@@ -7,6 +7,7 @@ function Deck() {
     }
     for (let special of ["skip", "rev", "D2"]) {
       deck.push(color + special)
+      
     }
   }
   for (let wild in [1,2,3,4]){
